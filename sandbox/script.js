@@ -1,8 +1,8 @@
 console.log("hello world!")
 
-var idade = 35;
-var idade = "trinta e cinco";
-console.log(idade);
+var idade2 = 35;
+var idade2 = "trinta e cinco";
+console.log(idade2);
 
 
 
@@ -66,3 +66,21 @@ let n2 = "quarenta e dois";
 n2 = Number(n2);
 console.log(n2);
 console.log(typeof n2)
+
+
+
+console.log(parseInt(n1));
+console.log(parseFloat(n1));
+
+
+// condicionais
+
+const idade = 18;
+
+if (idade < 18) {
+  console.log("Menor de idade");
+} else if (idade === 18) {
+  console.log("Acabou de atingir a maioridade");
+} else {
+  console.log("Maior de idade");
+}
