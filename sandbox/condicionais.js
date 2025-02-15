@@ -70,25 +70,116 @@
 // }
 
 
-// Intermediario 1
+// Intermediario 4
 
 
-let user = prompt("Digite usuario");
+// let user = prompt("Digite usuario");
 
-if (user === "adimin") {
+// if (user === "adimin") {
 
-    let pass = prompt("Digite senha");
+//     let pass = prompt("Digite senha");
 
-    if (pass === "1234") {
+//     if (pass === "1234") {
 
-        console.log("Login bem-sucedido.");
-    } else {
-        console.log("Usuario inexistente.");
+//         console.log("Login bem-sucedido.");
+//     } else {
+//         console.log("Usuario inexistente.");
 
-    }
+//     }
 
 
-} else {
-    console.log("Acesso negado");
+// } else {
+//     console.log("Acesso negado");
 
-}
+// }
+
+
+//  Intermediario 3
+
+// let cash = prompt("Insira o valor da compra");
+
+// if (cash > 100.0) {
+
+//     console.log (cash - [10 / 100 * cash] );
+
+// } else {
+
+//     console.log(cash);
+
+// }
+
+
+
+//  Intermediario 2
+
+// let n1 = prompt("Insira o primeiro numero");
+
+// let n2 = prompt("Insira o segundo numero");
+
+// let n3 = prompt("Insira o terceiro numero");
+
+
+// if (n1 > n2 && n1 > n3 ) {
+
+//    console.log(n1); 
+
+// } else if (n2 > n1 && n2 > n3) {
+
+//     console.log( n2 );
+
+// } else {
+
+//     console.log(n3);
+// }
+
+
+//  Intermediario 1
+
+// let num1 = parseFloat(prompt("Insira o primeiro número:"));
+// let num2 = parseFloat(prompt("Insira outro número:"));
+// let operacao = prompt("Insira a operação. Ex: +, -, *, /.");
+
+// let resultado = null;
+
+// switch (operacao) {
+//   case "+":
+
+//     resultado = num1 + num2;
+
+//     break;
+
+//   case "-":
+
+//     resultado = num1 - num2;
+
+//     break;
+
+//   case "*":
+
+//     resultado = num1 * num2;
+
+//     break;
+
+//   case "/":
+
+//     if (num2 == 0) {
+//         console.log("Você não pode dividir um número por zero.");
+//     } else {
+//         resultado = num1 / num2;
+//         console.log("resultado", resultado);
+//     }
+
+//     break;
+
+//   default:
+
+//     console.log("Operador inválido.");
+
+//     break;
+// }
+
+// if (operacao != "/") {
+
+//     console.log("resultado", resultado);
+
+// }
