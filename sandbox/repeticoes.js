@@ -14,7 +14,7 @@ function exercicioRep01() {
 
   let paragrafo = document.createElement("p");
 
-  paragrafo.innerHTML = "Exercicio 01 de repeticao executado";
+  paragrafo.innerHTML = "Exercicio 01 de repeticao executado, confira o console.";
 
 
   divDeLogs.appendChild(paragrafo);
