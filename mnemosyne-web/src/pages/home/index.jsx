@@ -1,11 +1,31 @@
+import { useEffect } from "react";
 import Header from "../../components/header";
 import "./home.css";
+import memory from "../../services/memory";
+
 
 
 const Home = () => {
+
+    useEffect(() => {
+
+
+
+
+
+    }, []);
+
+    const getMemoriesList = async () => {
+
+        const lista = await memory.getMemories();
+
+        console.log("lista: ", lista);
+
+    }
+
     return (
         <>
-           <Header></Header>
+            <Header></Header>
 
             <main className="app-main">
 
