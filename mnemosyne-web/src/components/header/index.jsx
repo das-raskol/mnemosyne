@@ -7,8 +7,8 @@ const Header = () => {
         <img src={logo} alt="Mnemosyne Logo"></img>
 
         <div className="links">
-            <a href="#">HOME</a>
-            <a href="#">ADICIONAR MEMÓRIA</a>
+            <a href="/home">HOME</a>
+            <a href="/new-memory">ADICIONAR MEMÓRIA</a>
         </div>
 
     </header>
